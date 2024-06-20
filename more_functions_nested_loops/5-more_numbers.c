@@ -1,20 +1,18 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
- * more_numbers- prints 10 times the numbers, from 0 to 14
- * followed by a new line.
+ * main - Prints all single digit numbers of base 10 starting from 0.
+ *
  * Return: Always 0.
  */
-void more_numbers(void)
+int main(void)
 {
+	int num;
 
-	int i, j;
-	{
-		for (j = 0; j <= 14; j++)
-		{
-			if (j >= 10)
-			_putchar('1');
-			_putchar(j % 10 + '0');
-		}
-		    _putchar('\n');
-	}
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
+
+	return (0);
 }
