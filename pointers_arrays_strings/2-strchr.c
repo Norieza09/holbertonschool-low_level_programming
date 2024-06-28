@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strchr - finds if char occurs in string
  *
